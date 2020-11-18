@@ -34,9 +34,6 @@ public class DatabaseBaglanti {
             exception.printStackTrace();
         }
 
-        //deneme++;
-        //} while (deneme < 3);
-
         return false;
     }
 
