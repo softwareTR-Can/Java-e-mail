@@ -48,11 +48,6 @@ public class Account {
 
             System.out.print("Yeni şifrenizi tekrar giriniz: ");
             newPasswordAgain = scanner.nextLine();
-            /*
-            System.out.println(databaseBaglanti.passwordTrueOrFalse(password));
-            System.out.println(newPassword.equals(newPasswordAgain));
-            System.out.println(checkIt.passwordCheckIt(newPassword));
-            */
 
         }while(!databaseBaglanti.passwordTrueOrFalse(password) || !newPassword.equals(newPasswordAgain) || !checkIt.passwordCheckIt(newPassword));
 
